@@ -8,9 +8,19 @@ describe('07-middleware-service-layer routes', () => {
     return setup(pool);
   });
 
-  // test post route
-  
-  // test get route
+  // test post matches getById route 
+  it('matches a post request body to a getById response body', async () => {
+    // declare a new object variable.
+
+    // await a post request to </route>
+    //  - attach a send(newObjVar)
+
+    // declare a new variable to save an async get request to </route/:id>
+
+    // expect getbyIdResponse to equal the new object with an id: expect.any(String)
+  });
+
+  // test getAll route
 
   // test put/patch route
 
