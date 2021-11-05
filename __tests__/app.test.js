@@ -8,6 +8,14 @@ describe('07-middleware-service-layer routes', () => {
     return setup(pool);
   });
 
+  // test post route
+  
+  // test get route
+
+  // test put/patch route
+
+  // test delete route
+
   afterAll(() => {
     pool.end();
   });
