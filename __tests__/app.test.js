@@ -1,9 +1,7 @@
 // import ModelClass
 
-// import the sendEmail function
+// mock sendEmail function
 const sendEmail = jest.fn();
-// reassign the function to jest.fn();
-
 
 const pool = require('../lib/utils/pool.js');
 const setup = require('../data/setup.js');
@@ -42,9 +40,6 @@ describe('07-middleware-service-layer routes', () => {
     // expect sendEmail to have been called once.
     expect(sendEmail).toHaveBeenCalledTimes(1);
   });
-  
-  
-
 
   // test getAll route
 
@@ -52,7 +47,6 @@ describe('07-middleware-service-layer routes', () => {
 
   // test delete route
 
-  
   afterAll(() => {
     pool.end();
   });
